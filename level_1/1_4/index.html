@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+<button id="b3" style="margin: 10px 0 50px 0">remove\add class</button>
+<!--<button id="b1">Display: none</button>-->
+<!--<button id="b2">Remove</button>-->
+<br>
+
+<label for="input"></label><input id="input" type="text">
+<div id="yellow-square"></div>
+
+
+<button id="for-red">Do you see the red square ?</button>
+<div id="red-square"></div>
+<br>
+
+<label for="for-rectangle"></label>
+<input id="for-rectangle" type="text">
+<div id="green-rectangle"></div>
+<br>
+
+<label for="add-images"></label>
+<textarea id="add-images" style="margin-top: 20px"></textarea>
+<button id="add-img" style="margin-bottom: 20px">Add Image</button>
+
+<div id="cursorCoordinates"></div>
+
+<div class="wrapper">
+    <div class="editable" id="local" contenteditable="true">localStorage</div>
+    <div class="editable" id="cookies" contenteditable="true">cookies</div>
+    <div class="editable" id="session" contenteditable="true">sessionStorage</div>
+</div>
+
+<div id="outer">
+    Outer Block
+    <div id="inner"> Inner Block </div>
+</div>
+
+<button id="showOverlay">Show Overlay</button>
+<div id="overlay"></div>
+
+<form id="submitGo"><input type="submit" value="GO"></form>
+
+<button id="scroll">↑</button>
+
+</body>
+</html>
